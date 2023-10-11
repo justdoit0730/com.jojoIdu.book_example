@@ -17,8 +17,8 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group 'com.jojoIdu.book'
-version '1.0.4-SNAPSHOT'
-sourceCompatibility = 11
+version '1.0.3-Chaptor'
+sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
@@ -31,4 +31,7 @@ dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-jpa')
     compile('com.h2database:h2')
     testCompile('org.springframework.boot:spring-boot-starter-test')
+
+    implementation 'org.assertj:assertj-core:3.19.0'
+
 }
