@@ -17,7 +17,7 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group 'com.jojoIdu.book'
-version '1.0.5-Chaptor'
+version '1.5.1-Chaptor'
 sourceCompatibility = 1.8
 
 repositories {
